@@ -283,7 +283,9 @@ blockquote.pull-right {
   footer,
   small,
   .small {
-    &:before { content: ''; }
+    &:before {
+      content: '';
+    }
     &:after {
       content: '\00A0 \2014'; // nbsp, em dash
     }
